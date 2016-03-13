@@ -1,7 +1,7 @@
 Image Manipulation Web App
 ==========================
 
-URL: http://<to be deployed>.appspot.com/
+URL: http://pic-peck.appspot.com/
 ------------------------------------
 
 > Created a Google App Engine application 
