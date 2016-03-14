@@ -1,0 +1,15 @@
+#image-url {
+	display: none;
+}
+
+#choice-image-url:checked ~ #image-url {
+	display: block;
+}
+
+#image-file {
+	display: none;
+}
+
+#choice-image-file:checked ~ #image-file {
+	display: block;
+}
