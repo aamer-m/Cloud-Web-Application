@@ -15,18 +15,18 @@ class MainPage(webapp2.RequestHandler):
         self.response.out.write('<html><head><link rel="stylesheet" type="text/css" href="stylesheets/style.css"></head><body>')
         self.response.out.write("""
         <form method="POST" action="/upload_photo" target="otp">
-
-        <input type="radio" name="choice-image" id="choice-image-url" value="image-url" checked="checked">
+        <h1>Image Enhancement</h1></br></br>
+        <center><input type="radio" name="choice-image" id="choice-image-url" value="image-url" checked="checked">
         <label for="choice-image-url">Image-URL</label>
 
         <input type="radio" name="choice-image" id="choice-image-file" value="image-file">
-        <label for="choice-image-file">Image-File</label><br>
+        <label for="choice-image-file">Image-File</label>
 
         <label id="image-url">Image URL: <input type="url" name="imageURL" placeholder="Enter an image URL here"></label>
 
         <label id="image-file">Image File: <input type="file" name="imageFile" accept="image/*" placeholder="Choose an image file"></label><br>
 
-        <label>Rotate: <input type="range" name="rotate" min="0" max="360" value="0" step="1"  onchange="showValue(this.name, this.value)"/>
+        <label>Rotate: <input type="range" name="rotate" min="0" max="360" value="0" step="5"  onchange="showValue(this.name, this.value)"/>
         <span id="rotate">0</span></label><br>
         <script type="text/javascript">
         function showValue(identity, newValue)
@@ -51,6 +51,7 @@ class MainPage(webapp2.RequestHandler):
         
         <input type="submit" name="submit"  value="submit"/><br>
         <iframe name="otp" frameborder="0" width="100%" height="100%"></iframe>
+        </center>
         </form>
         </body>
         </html>""")
