@@ -13,3 +13,31 @@
 #choice-image-file:checked ~ #image-file {
 	display: block;
 }
+/*http://jeffkemponoracle.com/2014/09/19/show-an-animated-please-wait-indicator-after-page-submit/*/
+div#runningindicator {
+  display: none;
+  background-color: #FFF;
+  padding: 30px;
+  border: 1px solid;
+  border-color: #CCC;
+  box-shadow: 2px 2px 2px #AAA;
+  border-radius: 4px;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -110px;  /* the half of the width */
+}
+div#runningindicator-img {
+  background-image: url(/i/Processing3.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width:  40px;  /* the exact width of the image */
+  height: 40px;  /* the exact height of the image */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#otpFrame {
+	width: 100%;
+	height: 400px;
+}

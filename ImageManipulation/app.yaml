@@ -6,6 +6,10 @@ threadsafe: yes
 handlers:
 - url: /stylesheets
   static_dir: stylesheets
+- url: /scripts
+  static_dir: scripts
+- url: /i
+  static_dir: i
 - url: /.*
   script: imageManipulation.app
 
@@ -13,3 +17,5 @@ handlers:
 libraries:
 - name: PIL
   version: "1.1.7"
+- name: jinja2
+  version: latest
