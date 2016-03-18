@@ -11,11 +11,12 @@ URL: http://pic-peck.appspot.com/
 > i_m_feeling_lucky feature provided by Image API which adjusts
 > image contrasts and color levels.
 
-# The page hits are observed for the web-site using memcache
+## The page hits are observed for the web-site using memcache
 
 # Customized access management using OTP (One Time Passcode) authentication mechanism
 
-Highlights: **unique passcode** | **expires when session ends** | **passcodes emailed** | **uses MD5 hascode with random padding**
+### Highlights:
+**unique passcode** | **expires when session ends** | **passcodes emailed** | **uses MD5 hascode with random padding**
 
 - The user is allowed to enter a valid email id, if the email format is not correct, user is notified and prompted again
 - When a valid email is entered by the user, he gets a g-digit alpha-numeric passcode to his email immediately
