@@ -13,10 +13,10 @@ URL: http://pic-peck.appspot.com/
 
 ## The page hits are observed for the web-site using memcache
 
-# Customized access management using OTP (One Time Passcode) authentication mechanism
+## Customized access management using OTP (One Time Passcode) authentication mechanism
 
 ### Highlights:
-**unique passcode** | **expires when session ends** | **passcodes emailed** | **uses MD5 hascode with random padding**
+**unique passcode** | **expires when session ends** | **passcodes emailed** | **uses MD5 hash with random padding**
 
 - The user is allowed to enter a valid email id, if the email format is not correct, user is notified and prompted again
 - When a valid email is entered by the user, he gets a 6-digit alpha-numeric passcode to his email immediately
