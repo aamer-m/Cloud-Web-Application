@@ -3,6 +3,7 @@
 <html>
 
 <head>
+	<meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
     <script src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous">
     </script>
@@ -10,8 +11,8 @@
 </head>
 
 <body>
-    <form id="form" action="imagehandler" method="POST" enctype="multipart/form-data" target="otp">
-        <h1>Image Enhancement</h1></br></br>
+    <form id="form" action="/imagehandler" method="POST" enctype="multipart/form-data" target="otp">
+
         <input type="radio" name="choice-image" id="choice-image-url" value="image-url" checked="checked">
         <label for="choice-image-url">Image-URL</label>
 
@@ -20,11 +21,11 @@
         <br>
 
         <label id="image-url">Image URL:
-            <input type="url" name="imageURL" placeholder="Enter an image URL here">
+            <input type="url" id="imageURL" name="imageURL" placeholder="Enter an image URL here">
         </label>
 
         <label id="image-file">Image File:
-            <input type="file" name="imageFile" accept="image/*" placeholder="Choose an image file">
+            <input type="file" id="imageFile" name="imageFile" accept="image/*" placeholder="Choose an image file">
         </label>
         <br>
 
