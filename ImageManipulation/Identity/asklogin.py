@@ -3,6 +3,7 @@ from google.appengine.ext.webapp.util import run_wsgi_app
 from google.appengine.ext import ndb
 from google.appengine.api import mail
 from google.appengine.api import app_identity
+from google.appengine.api import memcache
 from random import randint
 import re
 import random, string
@@ -40,8 +41,14 @@ def generateHashCode(email):
 
 class MainPage(webapp.RequestHandler):
     
-    global UserID, randomgenerator
+    global UserID, randomgenerator, countMemCache
     def get(self):
+        countMemCache = memcache.get('countMemCache')
+        if countMemCache == None:
+            memcache.set('countMemCache', 0)
+        else:
+            memcache.set('countMemCache', countMemCache + 1)
+        self.response.out.write("Page Visits <strong>" + str(countMemCache) + "</strong><br>")
         self.response.out.write("""<form>
   Choose your User name:<br>
   <input type="text" name="UserName" value="Enter your Email ID">
