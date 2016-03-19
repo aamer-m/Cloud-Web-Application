@@ -2,10 +2,10 @@ Image Manipulation Web App
 ==========================
 
 **Team:**
-Mohammed Aamer Fnu
-Vikas Reddy Vanteru
-Sri Harsha Jilludumudi
-Anand Kumar Taridalu Subrahmanyam
+#### Mohammed Aamer Fnu
+#### Vikas Reddy Vanteru
+#### Sri Harsha Jilludumudi
+#### Anand Kumar Taridalu Subrahmanyam
 
 URL: http://pic-peck.appspot.com/
 ------------------------------------
