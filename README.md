@@ -40,7 +40,7 @@ URL: http://pic-peck.appspot.com/
 
 ### Customized access management 
 ######  using OTP (One Time Passcode) authentication mechanism
-**unique passcode** | **expires when session ends** | **passcodes emailed** | **uses MD5 hash with random padding**
+**passcodes expire when session ends** | **passcodes emailed** | **uses MD5 hash with random padding**
 - The user is allowed to enter a valid email id, if the email format is not correct, user is notified and prompted again
 - When a valid email is entered by the user, he gets a 6-digit alpha-numeric passcode to his email immediately
 - User can then enter this one-time passcode(OTP) to login into the website
