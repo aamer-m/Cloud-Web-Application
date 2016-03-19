@@ -1,8 +1,9 @@
-version: 1
-application: pic-peck
+application: dem-ode
 runtime: python27
+version: 1
 api_version: 1
 threadsafe: yes
+
 handlers:
 - url: /stylesheets
   static_dir: stylesheets
@@ -11,11 +12,10 @@ handlers:
 - url: /i
   static_dir: i
 - url: /.*
-  script: imageManipulation.app
-
+  script: main.app
 
 libraries:
 - name: PIL
   version: "1.1.7"
-- name: jinja2
+- name: webapp2
   version: latest

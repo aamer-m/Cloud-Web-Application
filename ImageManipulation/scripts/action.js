@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 
     var radio = $('input[name="choice-image"]'),
