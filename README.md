@@ -19,12 +19,13 @@ URL: http://pic-peck.appspot.com/
 
 ## Google AppEngine web services used in the project
  - Image Transformation API (with PIL)
- - Google Cloud Datastore
+ - Google Cloud Datastore and Blobstore
  - NDB Datastore API
  - Memcache - for Page Hits
  - Urlfetch - for fetching Image URL
  - Image Library
  - Mail
+ - I am feeling lucky Image API
 
 ## Functionality
  - The user can use both local images and image urls for editing
