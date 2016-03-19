@@ -7,7 +7,7 @@ Image Manipulation Web App
 ##### Sri Harsha Jilludumudi
 ##### Anand Kumar Taridalu Subrahmanyam
 
-URL: http://pic-peck.appspot.com/
+URL: http://dem-ode.appspot.com/
 ------------------------------------
 
 > Created a Google App Engine application 
