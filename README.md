@@ -1,7 +1,7 @@
 Image Manipulation Web App
 ==========================
 
-**Team:**
+**Team**
 ##### Mohammed Aamer Fnu
 ##### Vikas Reddy Vanteru
 ##### Sri Harsha Jilludumudi
