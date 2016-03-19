@@ -2,10 +2,10 @@ Image Manipulation Web App
 ==========================
 
 **Team:**
-#### Mohammed Aamer Fnu
-#### Vikas Reddy Vanteru
-#### Sri Harsha Jilludumudi
-#### Anand Kumar Taridalu Subrahmanyam
+##### Mohammed Aamer Fnu
+##### Vikas Reddy Vanteru
+##### Sri Harsha Jilludumudi
+##### Anand Kumar Taridalu Subrahmanyam
 
 URL: http://pic-peck.appspot.com/
 ------------------------------------
@@ -17,8 +17,8 @@ URL: http://pic-peck.appspot.com/
 > i_m_feeling_lucky feature provided by Image API which adjusts
 > image contrasts and color levels.
 
-## The page hits are observed for the web-site using memcache
-## Customized access management using OTP (One Time Passcode) authentication mechanism
+#### The page hits are observed for the web-site using memcache
+#### Customized access management using OTP (One Time Passcode) authentication mechanism
 
 ### Highlights:
 
