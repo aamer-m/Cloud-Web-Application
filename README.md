@@ -12,10 +12,10 @@ URL: http://pic-peck.appspot.com/
 > image contrasts and color levels.
 
 ## The page hits are observed for the web-site using memcache
-
 ## Customized access management using OTP (One Time Passcode) authentication mechanism
 
 ### Highlights:
+
 **unique passcode** | **expires when session ends** | **passcodes emailed** | **uses MD5 hash with random padding**
 
 - The user is allowed to enter a valid email id, if the email format is not correct, user is notified and prompted again
@@ -27,10 +27,18 @@ URL: http://pic-peck.appspot.com/
 # Used AppEngine web services
  - Image Transformation API (with PIL)
  - Google Cloud Datastore
-   - NDB Datastore API
- - *
- - *
+ - NDB Datastore API
+ - Memcache - for Page Hits
+ - Urlfetch - for fetching Image URL
+ - Image Library
+ - Mail
 
+# Functionality
+ - The user can use both local images and image urls for editing
+ - The user can apply the image enhancers to required level by adjusting the slider levels as required
+ - The user will be able to download the edited image from the page
+ - The user will be able to provide feedback in text and also give rating for the website
+ - The user-ratings and feedback are shown real-time at the end of the page
 
 # Version
 1.0
