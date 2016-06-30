@@ -7,7 +7,7 @@ Image Manipulation Web App
 ##### Sri Harsha Jilludumudi
 ##### Anand Kumar Taridalu Subrahmanyam
 
-URL: http://dem-ode.appspot.com/
+~~URL: http://dem-ode.appspot.com/~~
 ------------------------------------
 
 > Created a Google App Engine application 
@@ -63,7 +63,7 @@ URL: http://dem-ode.appspot.com/
 An Sample image url is submitted by the user.
 
  - Web app homepage
-**dem-ode.appspot.com**
+~~**dem-ode.appspot.com**~~
 
 
 
